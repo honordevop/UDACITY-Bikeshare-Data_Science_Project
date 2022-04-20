@@ -223,7 +223,7 @@ def trip_duration_stats(df):
 
     if mins > 60:
         hrs, mins = divmod(mins, 60)
-        print(f"\nThe average trip duration is {hrs} hours, {mins} minutes and {sec} seconds.")
+        print("\nThe average trip duration is {} hours, {} minutes and {} seconds.".format(hrs, mins, sec))
     else:
         print(f"\nThe average trip duration is {mins} minutes and {sec} seconds.")
 
@@ -264,7 +264,7 @@ def user_stats(df):
         earliest = int(df['Birth Year'].min())
         recent = int(df['Birth Year'].max())
         common_year = int(df['Birth Year'].mode()[0])
-        print(f"\nThe earliest year of birth: {earliest}\n\nThe most recent year of birth: {recent}\n\nThe most common year of birth: {common_year}")
+        print("\nThe earliest year of birth: {}\n\nThe most recent year of birth: {}\n\nThe most common year of birth: {}".format(earliest, recent, common_year))
     except:
         print("\nThis file has no information about the year of birth of users.")
 
