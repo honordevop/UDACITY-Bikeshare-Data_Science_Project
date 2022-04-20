@@ -42,11 +42,21 @@ Finally, the user is prompted with the choice of restarting the program or not.
 
 # Project Data
 
-* chicago.csv - Stored in the data folder, the chicago.csv file is the dataset containing all bikeshare information for the city of Chicago provided by Udacity.
+## The Datasets
+Randomly selected data for the first six months of 2017 are provided for all three cities namely chicago, new_york_city, washington. All three of the data files contain the same core six (6) columns:
 
-* new_york_city.csv - Dataset containing all bikeshare information for the city of New York provided by Udacity.
+* Start Time (e.g., 2017-01-01 00:07:57)
+* End Time (e.g., 2017-01-01 00:20:53)
+* Trip Duration (in seconds - e.g., 776)
+* Start Station (e.g., Broadway & Barry Ave)
+* End Station (e.g., Sedgwick St & North Ave)
+* User Type (Subscriber or Customer)
 
-* washington.csv - Dataset containing all bikeshare information for the city of Washington provided by Udacity. Note: This does not include the 'Gender' or 'Birth Year' data.
+The Chicago and New York City files also have the following two columns:
+
+Gender
+Birth Year
+
 
 # Built with
 
@@ -54,6 +64,7 @@ Finally, the user is prompted with the choice of restarting the program or not.
 * [pandas](https://pandas.pydata.org/) - One of the libraries used for this.
 * [numpy](http://www.numpy.org/) - One of the libraries used for this.
 * [time](https://docs.python.org/2/library/time.html) - One of the libraries used for this.
+
 
 # Author
 
@@ -63,8 +74,8 @@ Finally, the user is prompted with the choice of restarting the program or not.
 
 * [xhlow](https://github.com/xhlow) - xhlow's repository helped with understanding the structural details of certain functions required.
 * [Aritra96](https://github.com/Aritra96/bikeshare-project) - Aritra96 repository helps in in understanding breakdown of the statistical steps required to achieve this project.
+* [geekforgeeks](https://www.geeksforgeeks.org/python-program-to-get-current-time/?ref=rp) - provides infomation on how to get current time in python
 * [pandas docs](http://pandas.pydata.org/pandas-docs/stable/) - pandas documentation was immensely helpful in understanding the implemention of pandas methods used in this project.
 * [Udacity](https://udacity.com) - Udacity's Data Analyst Nanodegree program and their instructors were extremely helpful while I was pursuing this project.
 * [Udacity's_blog](https://www.udacity.com/blog/2014/04/how-to-make-python-program-wait.html#:~:text=If%20you've%20got%20a,want%20your%20program%20to%20wait.) - Teaches on how to delay code execution using python time module.
 * Finally, I'd like to appreciate [Access Bank](https://www.accessbankplc.com/) and [Udacity](https://udacity.com) for this learning and self improvement opportunity.
-
