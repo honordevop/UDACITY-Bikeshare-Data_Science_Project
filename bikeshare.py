@@ -138,7 +138,7 @@ def load_data(choice_city, month, choice_day):
 
 def time_stats(df):
     """
-    Displays statistics on the most frequent times of travel.
+    Displays statistics on the most frequent times of travel based on user's choice entry.
     
     Args:
         param1 (df): The data frame we are working with.
@@ -170,7 +170,7 @@ def time_stats(df):
 
 def station_stats(df):
     """
-    Displays statistics on the most popular stations and trip.
+    Displays statistics on the most popular stations and trip based on user's choice entry.
     
     param1 (df): The data frame we are working with.
 
@@ -200,7 +200,8 @@ def station_stats(df):
 
 def trip_duration_stats(df):
     """
-    Displays statistics on the total and average trip duration.
+    Displays statistics on the total and average trip duration based on user's choice entry.
+
     param1 (df): The data frame we are working with.
 
     Returns: None.
@@ -235,7 +236,8 @@ def trip_duration_stats(df):
 
 def user_stats(df):
     """
-    Displays statistics on bikeshare users.
+    Displays statistics on bikeshare users based on user's choice entry.
+
     param1 (df): The data frame we are working with.
 
     Returns: None.
@@ -276,7 +278,7 @@ def user_stats(df):
 
 #Function to display the data frame itself as per user request
 def display_data(df):
-    """Displays 5 rows of data from the csv file for the selected city.
+    """Displays 5 rows of data from the csv file for the user's city choice.
 
     Args:
         param1 (df): The data frame we are working with.
